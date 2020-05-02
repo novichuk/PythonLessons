@@ -1,7 +1,5 @@
 *.pyc
 */.idea/
 .idea/
-myenv
-/myenv
-env
-/env
+env/
+
