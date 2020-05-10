@@ -1,6 +1,0 @@
-[flake8]
-max-lenght: 120
-exclude: migrations #исключить миграции
-#noqa
-
-
