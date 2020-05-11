@@ -9,4 +9,8 @@ urlpatterns = [
     path('hello-world/', views.hello_world),
 
     path('students/', views.students),
+
+    path('generate-student/', views.generate_student),
+
+    path('generate-students/', views.generate_students),
 ]

@@ -1,12 +1,6 @@
 from django.db import models
 
 
-# Create your models here.
-
-# ORM
-# Объектное представление в Джанго = модель
-# Модель - отображение реляционной таблицы
-
 class Student(models.Model):
     first_name = models.CharField(max_length=64)
     last_name = models.CharField(max_length=64)
@@ -22,4 +16,3 @@ class Student(models.Model):
     def inc_age(self):
         self.age += 1
         self.save()
-
