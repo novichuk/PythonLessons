@@ -44,6 +44,8 @@ INSTALLED_APPS = [
 
     # custom
     'students',
+    'teacher',
+    'group',
 ]
 
 MIDDLEWARE = [
