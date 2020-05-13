@@ -1,4 +1,8 @@
 *.pyc
+*~
+__pycache__
 */.idea/
 .idea/
+.DS_Store
 env/
+__notes/

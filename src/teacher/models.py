@@ -1,6 +1,5 @@
 from django.db import models
-from faker import Faker
-import random
+
 
 class Teacher(models.Model):
     DISTINGUISHED = 'Distinguished'
@@ -36,4 +35,3 @@ class Teacher(models.Model):
 
     def info(self):
         return f'{self.id} {self.first_name} {self.last_name} {self.age} {self.rank}'
-
