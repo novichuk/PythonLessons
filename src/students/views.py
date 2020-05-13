@@ -2,9 +2,10 @@ import random
 import string
 
 from django.http import HttpResponse
+
 from faker import Faker
 
-from students.models import Student  # import model
+from students.models import Student
 
 
 def generate_password(lenght: int = 10) -> str:
@@ -47,7 +48,7 @@ def students(request):
     return HttpResponse(response)
 
 
-def generate_student(request): #1 student generator
+def generate_student(request):  # 1 student generator
     fake = Faker()
 
     student = Student.objects.create(first_name=fake.first_name(),
@@ -58,7 +59,7 @@ def generate_student(request): #1 student generator
     return HttpResponse(response)
 
 
-def students_generator(count: int = 1): #1 or more students generator
+def students_generator(count: int = 1):  # 1 or more students generator
     # try:
     #     count = int(request.GET['count'])
     # except:
@@ -85,6 +86,6 @@ def generate_students(request):
         print('hi')
         response = HttpResponse(students_generator(int(count)))
     else:
-        response = f'Please enter amount of students 1 or more'
+        response = 'Please enter amount of students 1 or more'
 
     return HttpResponse(response)
