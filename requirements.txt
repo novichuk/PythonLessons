@@ -6,6 +6,7 @@ Faker==4.0.3
 flake8==3.8.1
 flake8-builtins==1.5.2
 flake8-import-order==0.18.1
+flake8-print==3.1.4
 ipython==7.14.0
 ipython-genutils==0.2.0
 jedi==0.17.0

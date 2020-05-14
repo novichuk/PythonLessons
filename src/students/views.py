@@ -83,7 +83,6 @@ def generate_students(request):
     response = ''
 
     if count.isdigit() and int(count) > 0:
-        print('hi')
         response = HttpResponse(students_generator(int(count)))
     else:
         response = 'Please enter amount of students 1 or more'

@@ -5,4 +5,5 @@ __pycache__
 .idea/
 .DS_Store
 env/
+.env/lib/python3.8/
 __notes/
