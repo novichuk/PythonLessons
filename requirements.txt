@@ -1,6 +1,6 @@
 backcall==0.1.0
 decorator==4.4.2
-Django==2.2.12
+Django==2.2.20
 django-extensions==2.2.9
 Faker==4.0.3
 flake8==3.8.1
